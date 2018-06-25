@@ -5,6 +5,7 @@
       body {
         background: linear-gradient(135deg, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
         font-family: sans-serif;
+        font-size: 0.9em;
         margin: 0px;
         padding: 40px;
       }
@@ -40,11 +41,14 @@
         text-align: center;
       }
       dd {
-        margin: 0.5em 1em 0.5em 1em;
+        margin: 0.4em 0.8em 0.4em 0.8em;
       }
       section {
         display: flex;
         flex-flow: row;
+      }
+      .mini {
+        font-size: 0.7em;
       }
     </style>
   </head>
@@ -60,31 +64,31 @@
         <dd><a href="https://internalsmartthings.statuspage.io">Internal Status</a></dd>
         <dd><hr></dd>
         <dd>
-          [<a href="https://graph.api.smartthings.com">na01</a>]
-          [<a href="https://graph-na02-useast1.api.smartthings.com">na02</a>]
-          [<a href="https://graph-na04-useast2.api.smartthings.com">na04</a>]
-          [<a href="https://graph-eu01-euwest1.api.smartthings.com">eu01</a>]
+          <span class="mini">[<a href="https://graph.api.smartthings.com">na01</a>]</span>
+          <span class="mini">[<a href="https://graph-na02-useast1.api.smartthings.com">na02</a>]</span>
+          <span class="mini">[<a href="https://graph-na04-useast2.api.smartthings.com">na04</a>]</span>
+          <span class="mini">[<a href="https://graph-eu01-euwest1.api.smartthings.com">eu01</a>]</span>
           Graph
         </dd>
         <dd>
-          [<a href="https://graph.api.smartthings.com/manufacturedHub/search">na01</a>]
-          [<a href="https://graph-na02-useast1.api.smartthings.com/manufacturedHub/search">na02</a>]
-          [<a href="https://graph-na04-useast2.api.smartthings.com/manufacturedHub/search">na04</a>]
-          [<a href="https://graph-eu01-euwest1.api.smartthings.com/manufacturedHub/search">eu01</a>]
+          <span class="mini">[<a href="https://graph.api.smartthings.com/manufacturedHub/search">na01</a>]</span>
+          <span class="mini">[<a href="https://graph-na02-useast1.api.smartthings.com/manufacturedHub/search">na02</a>]</span>
+          <span class="mini">[<a href="https://graph-na04-useast2.api.smartthings.com/manufacturedHub/search">na04</a>]</span>
+          <span class="mini">[<a href="https://graph-eu01-euwest1.api.smartthings.com/manufacturedHub/search">eu01</a>]</span>
           ManHub
         </dd>
         <dd>
-          [<a href="https://graph.api.smartthings.com/login/switchUser?userid=superuser&type=username&reason=Console">na01</a>]
-          [<a href="https://graph-na02-useast1.api.smartthings.com/login/switchUser?userid=superuser&type=username&reason=Console">na02</a>]
-          [<a href="https://graph-na04-useast2.api.smartthings.com/login/switchUser?userid=superuser&type=username&reason=Console">na04</a>]
-          [<a href="https://graph-eu01-euwest1.api.smartthings.com/login/switchUser?userid=superuser&type=username&reason=Console">eu01</a>]
+          <span class="mini">[<a href="https://graph.api.smartthings.com/login/switchUser?userid=superuser&type=username&reason=Console">na01</a>]</span>
+          <span class="mini">[<a href="https://graph-na02-useast1.api.smartthings.com/login/switchUser?userid=superuser&type=username&reason=Console">na02</a>]</span>
+          <span class="mini">[<a href="https://graph-na04-useast2.api.smartthings.com/login/switchUser?userid=superuser&type=username&reason=Console">na04</a>]</span>
+          <span class="mini">[<a href="https://graph-eu01-euwest1.api.smartthings.com/login/switchUser?userid=superuser&type=username&reason=Console">eu01</a>]</span>
           Superuser
         </dd>
         <dd>
-          [<a href="https://graph.api.smartthings.com/console">na01</a>]
-          [<a href="https://graph-na02-useast1.api.smartthings.com/console">na02</a>]
-          [<a href="https://graph-na04-useast2.api.smartthings.com/console">na04</a>]
-          [<a href="https://graph-eu01-euwest1.api.smartthings.com/console">eu01</a>]
+          <span class="mini">[<a href="https://graph.api.smartthings.com/console">na01</a>]</span>
+          <span class="mini">[<a href="https://graph-na02-useast1.api.smartthings.com/console">na02</a>]</span>
+          <span class="mini">[<a href="https://graph-na04-useast2.api.smartthings.com/console">na04</a>]</span>
+          <span class="mini">[<a href="https://graph-eu01-euwest1.api.smartthings.com/console">eu01</a>]</span>
           Console
         </dd>
         <dd><a href="https://graph.api.smartthings.com/hub/create">Create Hub NA01</a></dd>
@@ -123,103 +127,101 @@
       <dl>
         <dt><a href="https://github.com/PhysicalGraph">Repos</a></dt>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/cLib">code</a>] [<a href="https://github.com/PhysicalGraph/cLib/pulls">pr</a>] cLib
+        <span class="mini">[<a href="https://github.com/PhysicalGraph/cLib">code</a>] [<a href="https://github.com/PhysicalGraph/cLib/pulls">pr</a>]</span> cLib
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/cloud-tools">code</a>] [<a href="https://github.com/PhysicalGraph/cloud-tools/pulls">pr</a>] cloud-tools
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/cloud-tools">code</a>] [<a href="https://github.com/PhysicalGraph/cloud-tools/pulls">pr</a>]</span> cloud-tools
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/electronics">code</a>] [<a href="https://github.com/PhysicalGraph/electronics/pulls">pr</a>] electronics
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/electronics">code</a>] [<a href="https://github.com/PhysicalGraph/electronics/pulls">pr</a>]</span> electronics
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hub-bootpart">code</a>] [<a href="https://github.com/PhysicalGraph/hub-bootpart/pulls">pr</a>] hub-bootpart
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hub-bootpart">code</a>] [<a href="https://github.com/PhysicalGraph/hub-bootpart/pulls">pr</a>]</span> hub-bootpart
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hub-core">code</a>] [<a href="https://github.com/PhysicalGraph/hub-core/pulls">pr</a>] hub-core
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hub-core">code</a>] [<a href="https://github.com/PhysicalGraph/hub-core/pulls">pr</a>]</span> hub-core
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hub-ember">code</a>] [<a href="https://github.com/PhysicalGraph/hub-ember/pulls">pr</a>] hub-ember
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hub-ember">code</a>] [<a href="https://github.com/PhysicalGraph/hub-ember/pulls">pr</a>]</span> hub-ember
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hub-factory-reset-utils">code</a>] [<a href="https://github.com/PhysicalGraph/hub-factory-reset-utils/pulls">pr</a>] hub-factory-reset-utils
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hub-factory-reset-utils">code</a>] [<a href="https://github.com/PhysicalGraph/hub-factory-reset-utils/pulls">pr</a>]</span> hub-factory-reset-utils
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hub-firmware-images">code</a>] [<a href="https://github.com/PhysicalGraph/hub-firmware-images/pulls">pr</a>] hub-firmware-images
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hub-firmware-images">code</a>] [<a href="https://github.com/PhysicalGraph/hub-firmware-images/pulls">pr</a>]</span> hub-firmware-images
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hub-linux">code</a>] [<a href="https://github.com/PhysicalGraph/hub-linux/pulls">pr</a>] hub-linux
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hub-linux">code</a>] [<a href="https://github.com/PhysicalGraph/hub-linux/pulls">pr</a>]</span> hub-linux
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hub-logging">code</a>] [<a href="https://github.com/PhysicalGraph/hub-logging/pulls">pr</a>] hub-logging
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hub-logging">code</a>] [<a href="https://github.com/PhysicalGraph/hub-logging/pulls">pr</a>]</span> hub-logging
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hub-scripts">code</a>] [<a href="https://github.com/PhysicalGraph/hub-scripts/pulls">pr</a>] hub-scripts
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hub-scripts">code</a>] [<a href="https://github.com/PhysicalGraph/hub-scripts/pulls">pr</a>]</span> hub-scripts
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hub-setup">code</a>] [<a href="https://github.com/PhysicalGraph/hub-setup/pulls">pr</a>] hub-setup
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hub-setup">code</a>] [<a href="https://github.com/PhysicalGraph/hub-setup/pulls">pr</a>]</span> hub-setup
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hubv2-hijacker">code</a>] [<a href="https://github.com/PhysicalGraph/hubv2-hijacker/pulls">pr</a>] hubv2-hijacker
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hubv2-hijacker">code</a>] [<a href="https://github.com/PhysicalGraph/hubv2-hijacker/pulls">pr</a>]</span> hubv2-hijacker
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hubv2-os">code</a>] [<a href="https://github.com/PhysicalGraph/hubv2-os/pulls">pr</a>] hubv2-os
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hubv2-os">code</a>] [<a href="https://github.com/PhysicalGraph/hubv2-os/pulls">pr</a>]</span> hubv2-os
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hubv2-os-poky">code</a>] [<a href="https://github.com/PhysicalGraph/hubv2-os-poky/pulls">pr</a>] hubv2-os-poky
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hubv2-os-poky">code</a>] [<a href="https://github.com/PhysicalGraph/hubv2-os-poky/pulls">pr</a>]</span> hubv2-os-poky
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hub-v2-pkg">code</a>] [<a href="https://github.com/PhysicalGraph/hub-v2-pkg/pulls">pr</a>] hub-v2-pkg
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hub-v2-pkg">code</a>] [<a href="https://github.com/PhysicalGraph/hub-v2-pkg/pulls">pr</a>]</span> hub-v2-pkg
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hub-prod">code</a>] [<a href="https://github.com/PhysicalGraph/hub-prod/pulls">pr</a>] hub-prod
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hub-prod">code</a>] [<a href="https://github.com/PhysicalGraph/hub-prod/pulls">pr</a>]</span> hub-prod
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hub-tee-applications">code</a>] [<a href="https://github.com/PhysicalGraph/hub-tee-applications/pulls">pr</a>] hub-tee-applications
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hub-tee-applications">code</a>] [<a href="https://github.com/PhysicalGraph/hub-tee-applications/pulls">pr</a>]</span> hub-tee-applications
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hub-uboot">code</a>] [<a href="https://github.com/PhysicalGraph/hub-uboot/pulls">pr</a>] hub-uboot
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hub-uboot">code</a>] [<a href="https://github.com/PhysicalGraph/hub-uboot/pulls">pr</a>]</span> hub-uboot
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/hub-v2-utils">code</a>] [<a href="https://github.com/PhysicalGraph/hub-v2-utils/pulls">pr</a>] hub-v2-utils
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/hub-v2-utils">code</a>] [<a href="https://github.com/PhysicalGraph/hub-v2-utils/pulls">pr</a>]</span> hub-v2-utils
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/provisioning">code</a>] [<a href="https://github.com/PhysicalGraph/provisioning/pulls">pr</a>] provisioning
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/provisioning">code</a>] [<a href="https://github.com/PhysicalGraph/provisioning/pulls">pr</a>]</span> provisioning
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/updater-ng">code</a>] [<a href="https://github.com/PhysicalGraph/updater-ng/pulls">pr</a>] updater-ng
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/updater-ng">code</a>] [<a href="https://github.com/PhysicalGraph/updater-ng/pulls">pr</a>]</span> updater-ng
         </dd>
         <dd>
-          [<a href="https://github.com/PhysicalGraph/video-core-c">code</a>] [<a href="https://github.com/PhysicalGraph/video-core-c/pulls">pr</a>] video-core-c
+          <span class="mini">[<a href="https://github.com/PhysicalGraph/video-core-c">code</a>] [<a href="https://github.com/PhysicalGraph/video-core-c/pulls">pr</a>]</span> video-core-c
         </dd>
       </dl>
       <dl>
-        <dt><a href="https://smartthings.atlassian.net/wiki/pages/viewinfo.action?pageId=119964245">Release</a></dt>
-        <dd><a href="https://smartthings.atlassian.net/wiki/x/AxzZC">Releasing Firmware</a></dd>
+        <dt>PM</dt>
+        <dd><a href="https://smartthings.atlassian.net/wiki/x/VYImBw">FW Releases</a></dd>
         <dd><a href="https://smartthings.atlassian.net/wiki/x/tARlAQ">hubv2-os Versions</a></dd>
         <dd><a href="https://smartthings.atlassian.net/wiki/x/_YEwCQ">HubCore 0.20</a></dd>
         <dd><a href="https://smartthings.atlassian.net/wiki/x/RDP8C">HubCore 0.21</a></dd>
         <dd><a href="https://smartthings.atlassian.net/wiki/x/QILkDQ">HubCore 0.22</a></dd>
+        <dd><hr></dd>
+        <dd><a href="https://smartthings.atlassian.net/wiki/x/-oDAFQ">v3 Customer Image</a></dd>
+        <dd><a href="https://smartthings.atlassian.net/wiki/x/PwuJDQ">v3 Decision Register</a></dd>
+        <dd><a href="https://smartthings.atlassian.net/wiki/x/l4L_C">v3 On-boarding Flow</a></dd>
+        <dd><a href="https://smartthings.atlassian.net/wiki/x/LwXCFg">v3 Open Tickets</a></dd>
+        <dd><a href="https://smartthings.atlassian.net/wiki/x/KYJcDQ">v3 System Requirements</a></dd>
+        <dd><hr></dd>
+        <dd><a href="https://smartthings.atlassian.net/wiki/x/XoKYFw">Hub Priority List</a></dd>
       </dl>
       <dl>
-        <dt><a href="https://smartthings.atlassian.net/wiki/x/U4DhBw">Hub v3</a></dt>
-        <dd><a href="https://smartthings.atlassian.net/wiki/x/iLn4C">Action Items</a></dd>
-        <dd><a href="https://smartthings.atlassian.net/wiki/x/2UkGCQ">Codeless Estimate</a></dd>
-        <dd><a href="https://smartthings.atlassian.net/wiki/x/IgwDCQ">Coded->Codeless Migration</a></dd>
-        <dd><a href="https://smartthings.atlassian.net/wiki/x/PwuJDQ">Decision Register</a></dd>
-        <dd><a href="https://smartthings.atlassian.net/wiki/x/l4L_C">On-boarding Flow</a></dd>
-        <dd><a href="https://docs.google.com/spreadsheets/d/1on8wthxJpNYK3lR_slWftGg6hLmtoQ46YO2rWDZ0hMI">Schedule</a></dd>
-        <dd><a href="https://smartthings.atlassian.net/wiki/x/KYJcDQ">System Requirements</a></dd>
-        <dd><a href="https://smartthings.atlassian.net/wiki/x/7djmC">WiFi Setup</a></dd>
-        <dd><a href="https://smartthings.atlassian.net/wiki/x/cTEQCQ">wifi_setupd Design</a></dd>
-      </dl>
-      <dl>
-        <dt><a href="https://smartthings.atlassian.net/wiki/x/QwCZAg">Updates</a></dt>
+        <dt><a href="https://smartthings.atlassian.net/wiki/x/QwCZAg">Update</a></dt>
         <dd><a href="https://service.sumologic.com/ui/dashboard.html?f=91226756&t=r">Sumo Dashboard</a></dd>
         <dd><a href="https://smartthings.datadoghq.com/dash/255628/updater-ng-monitor-board">Datadog Dashboard</a></dd>
         <dd><a href="https://service.sumologic.com/ui/dashboard.html?k=z2oqxETnf1lGjaeikhkHYLPdqSg8LNGrimFyWmp7iVKZK77Oj7ZU9PpBZji1&t=r">Pre-Prod Dashboard</a></dd>
         <dd><hr></dd>
         <dd><a href="https://docs.google.com/spreadsheets/d/1y79wzZZ4KNCcobrisvYjaZ8v5G7epEc4bhAAqvwiaPk/edit">Hub Beta List</a></dd>
         <dd><a href="https://docs.google.com/spreadsheets/d/1p0yf_osL8FS-SG9DxEn5rblLwP-pEPZ9jInBZ7FLeAs/edit">Nova OTA List</a></dd>
+        <dd><hr></dd>
+        <dd><a href="https://smartthings.atlassian.net/wiki/x/AxzZC">Releasing Firmware</a></dd>
         <dd><hr></dd>
         <dd><a href="https://smartthings.atlassian.net/wiki/x/ToA0Bg">Architecture</a></dd>
         <dd><a href="https://smartthings.atlassian.net/wiki/x/-IFjB">Design</a></dd>
@@ -243,17 +245,17 @@
       <dl>
         <dt><a href="https://github.com/nastevens">Dev (Personal)</a></dt>
         <dd>
-          [<a href="https://github.com/nastevens/fixedvec-rs">code</a>] [<a href="https://github.com/nastevens/fixedvec-rs/pulls">pr</a>] fixedvec-rs
+          <span class="mini">[<a href="https://github.com/nastevens/fixedvec-rs">code</a>] [<a href="https://github.com/nastevens/fixedvec-rs/pulls">pr</a>]</span> fixedvec-rs
         </dd>
         <dd>
-          [<a href="https://github.com/nastevens/predicates-rs">code</a>] [<a href="https://github.com/nastevens/predicates-rs/pulls">pr</a>] predicates-rs
+          <span class="mini">[<a href="https://github.com/nastevens/predicates-rs">code</a>] [<a href="https://github.com/nastevens/predicates-rs/pulls">pr</a>]</span> predicates-rs
         </dd>
         <dd>
-          [<a href="https://github.com/rust-embedded/meta-rust-bin">code</a>] [<a href="https://github.com/rust-embedded/meta-rust-bin/pulls">pr</a>] meta-rust-bin
+          <span class="mini">[<a href="https://github.com/rust-embedded/meta-rust-bin">code</a>] [<a href="https://github.com/rust-embedded/meta-rust-bin/pulls">pr</a>]</span> meta-rust-bin
         </dd>
         <dd><hr></dd>
         <dd>
-          [<a href="https://github.com/rust-lang-nursery/embedded-wg">code</a>] [<a href="https://github.com/rust-lang-nursery/embedded-wg/pulls">pr</a>] embedded-wg
+          <span class="mini">[<a href="https://github.com/rust-lang-nursery/embedded-wg">code</a>] [<a href="https://github.com/rust-lang-nursery/embedded-wg/pulls">pr</a>]</span> embedded-wg
         </dd>
       </dl>
       <dl>
